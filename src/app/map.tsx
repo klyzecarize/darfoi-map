@@ -5,7 +5,6 @@ import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import Image from "next/image";
 import regionData from "./data/region_i.json";
 import officesData from "./data/offices.json";
-import GeoJsonObject from "geojson";
 
 export default function MyMap() {  
     let objRegionColor = {
