@@ -15,6 +15,8 @@ export default function MyMap() {
     };
   
     let objMarkers = officesData.offices;
+    console.log(regionData.features)
+
   
     const onEachRegion = (regionName: any, layer: any) => {
       const strRegions: string = regionName.properties.PROVINCE;
