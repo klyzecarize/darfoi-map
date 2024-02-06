@@ -26,7 +26,7 @@ export default function MyMap() {
             flex-direction: column;
             align-items: center;
             justify-content: center;">
-                <img src="/DA-LOGO-1024x1024.png" alt="Your Logo" width="100" height="100">
+                <img src="./DA-LOGO-1024x1024.png" alt="Your Logo" width="100" height="100">
                 <h1><b>${strRegions}</b></h1>
         </div>
         <hr/>
@@ -85,7 +85,7 @@ export default function MyMap() {
                     <div className="flex items-center">
                         <div>
                         <Image
-                            src="/DA-LOGO-1024x1024.png"
+                            src="./DA-LOGO-1024x1024.png"
                             width={100}
                             height={100}
                             alt="Picture of the author"
