@@ -1,0 +1,39 @@
+{
+    "offices": [
+        {
+            "geocode": [18.072642, 120.6796962],
+            "office": "Ilocos Norte Research and Experiment Center (INREC)",
+            "location": "Dingras, Ilocos Norte"
+        },
+        {
+            "geocode": [18.0492602, 120.5487201],
+            "office": "Ilocos Norte Research and Experiment Center (INREC)",
+            "location": "Batac, Ilocos Norte"
+        },
+        {
+            "geocode": [17.760404, 120.4686966],
+            "office": "Ilocos Sur Research Center (ISReC)",
+            "location": "San Juan, Ilocos Sur"
+        },
+        {
+            "geocode": [16.7315799, 120.385542],
+            "office": "Ilocos Region Integrated Agricultural Research Center (ILIARC)",
+            "location": "Bacnotan, La Union"
+        },
+        {
+            "geocode": [16.6092488, 120.3184411],
+            "office": "Department Of Agriculture Regional Office 1",
+            "location": "City of San Fernando, La Union"
+        },
+        {
+            "geocode": [16.069759,120.0853115],
+            "office": "Pangasinan, Research and Experiment Center (PREC)",
+            "location": "Sual, Pangasinan"
+        },
+        {
+            "geocode": [16.0254414, 120.194072],
+            "office": "Pangasinan, Research and Experiment Center (PREC)",
+            "location": "Sta. Barbara, Pangasinan"
+        }
+    ]
+}
