@@ -5,11 +5,7 @@ import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import Image from "next/image";
 import regionData from "./data/region_i.json";
 import officesData from "./data/offices.json";
-import { Feature, Geometry, GeoJsonObject } from 'geojson';
-
-type MyGeoJsonType = GeoJsonObject & {
-  features: Feature<Geometry>[];
-};
+import GeoJsonObject from "geojson";
 
 export default function MyMap() {  
     let objRegionColor = {
@@ -20,7 +16,6 @@ export default function MyMap() {
     };
   
     let objMarkers = officesData.offices;
-    let objRegions: MyGeoJsonType  = regionData.features;
   
     const onEachRegion = (regionName: any, layer: any) => {
       const strRegions: string = regionName.properties.PROVINCE;
@@ -112,7 +107,7 @@ export default function MyMap() {
         {/* GeoJSON */}
         <GeoJSON 
             style={objRegionColor} 
-            data={objRegions}
+            data={regionData.features as any}
             onEachFeature={onEachRegion}/>
       </MapContainer>
     );
