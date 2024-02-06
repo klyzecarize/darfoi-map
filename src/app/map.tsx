@@ -80,7 +80,7 @@ export default function MyMap() {
         {
             objMarkers.map( (marker, index) => {
                 return (
-                <Marker key={index} position={marker.geocode}>
+                <Marker key={index} position={[marker.geocode[0], marker.geocode[1]]}>
                     <Popup>
                     <div className="flex items-center">
                         <div>
